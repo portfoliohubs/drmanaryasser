@@ -68,7 +68,7 @@
     {{ end }}
     {{ end }}
 
-    {{ $schema := dict "@context" "https://schema.org" "@type" (slice "Dentist" "LocalBusiness") "name" $doctorNameEn "url" .Permalink "image" (($seo.og_image | default "") | absURL) "telephone" (.Site.Params.contact.phone | default "") "email" (.Site.Params.contact.email | default "") "sameAs" (slice (.Site.Params.contact.instagram | default "") (.Site.Params.contact.facebook | default "") (.Site.Params.contact.linkedin | default "")) }}
+    {{ $schema := dict "@context" "https://schema.org" "@type" (slice "Dentist" "LocalBusiness") "name" $doctorNameEn "url" .Permalink "image" (($seo.og_image | default "") | absURL) "telephone" (.Site.Params.contact.phone | default "") "email" (.Site.Params.contact.email | default "") "sameAs" (slice (.Site.Params.contact.instagram | default "") (.Site.Params.contact.tiktok | default "") (.Site.Params.contact.linkedin | default "")) }}
     <script type="application/ld+json">{{ $schema | jsonify }}</script>
     
     <!-- Font Awesome -->
@@ -851,8 +851,8 @@
             background: linear-gradient(135deg, #f58529, #dd2a7b);
         }
 
-        .social-link.facebook {
-            background: #1877f2;
+        .social-link.tiktok {
+            background: #000000;
         }
 
         .social-link.linkedin {
@@ -1379,8 +1379,8 @@
                         {{ with .Site.Params.contact.instagram }}
                         <a href="{{ . }}" target="_blank" class="social-link instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         {{ end }}
-                        {{ with .Site.Params.contact.facebook }}
-                        <a href="{{ . }}" target="_blank" class="social-link facebook" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        {{ with .Site.Params.contact.tiktok }}
+                        <a href="{{ . }}" target="_blank" class="social-link tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
                         {{ end }}
                         {{ with .Site.Params.contact.linkedin }}
                         <a href="{{ . }}" target="_blank" class="social-link linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
