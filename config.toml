@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Manar Yasser"
     tagline = "GP Dentist"
     graduation = "Graduated 2024 - Misr University for Science and Technology"
-    profile_image = "https://drive.google.com/open?id=1e-T0P-n3fktE6EgdHjTm6GFlJwzCr5XX"
+    profile_image = "https://github.com/user-attachments/assets/efb7685e-cc22-4970-84fa-f550a84f3f8f"
     profile_image_alt = "Profile photo of Dr. Manar Yasser"
     
     [params.hero.current_position]
@@ -21,18 +21,18 @@ defaultContentLanguage = "en"
     doctor_name_en = "Dr. Manar Yasser"
     doctor_name_ar = "د. منار ياسر"
     site_name = "Dr. Manar Yasser"
-    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
-    favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
-    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    og_image = ""
+    favicon_image = ""
+    twitter_handle = ""
     keywords = [
       "dentist",
       "dental clinic",
       "cosmetic dentistry",
       "restorative dentistry",
       "Dr. Manar Yasser",
-      "zagazig",
-      "DENTIST IN ZAGAZIG",
-      "DENTAL CLINIC IN ZAGAZIG",
+      "october",
+      "DENTIST IN october",
+      "DENTAL CLINIC IN october",
       "DENTAL CLINIC"
     ]
     keywords_ar = [
@@ -41,8 +41,8 @@ defaultContentLanguage = "en"
       "تجميل الأسنان",
       "ترميم الأسنان",
       "د. منار ياسر",
-      "طبيب بالزقازيق",
-      "عيادة بالزقازيق",
+      "طبيب باكتوبر",
+      "عيادة باكتوبر",
       "دكتور منار ياسر",
       "عيادة منار ياسر",
       "عيادة اسنان الشرقية",
@@ -164,99 +164,74 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
-    category = "Zirconia bridge"
-    category_ar = "كوبرى زركونيا"
+    category = "operative and cosmetic"
+    category_ar = "جراحية وتجميلية"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1-8fZasNzssxnV4f5IEiQAG5oe9udhPwr"
-      alt = "Zirconia bridge"
-      description = "Zirconia bridge"
-      alt_ar = "كوبرى زركونيا"
-      description_ar = "كوبرى زركونيا"
+      photo = "https://github.com/user-attachments/assets/b7cdcbd7-1886-40f4-8ba3-b6fa4e029d67"
+      alt = "operative and cosmetic case"
+      description = "operative and cosmetic case"
+      alt_ar = "حالة حشو وتجميلي"
+      description_ar = "حالة حشو وتجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/14508f02-3056-40ba-8254-abd5d8beca33"
+      alt = "operative and cosmetic case"
+      description = "operative and cosmetic case"
+      alt_ar = "حالة حشو وتجميلي"
+      description_ar = "حالة حشو وتجميلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e6a26f62-8e4a-4b5d-960a-013586452760"
+      alt = "operative and cosmetic case"
+      description = "operative and cosmetic case"
+      alt_ar = "حالة حشو وتجميلي"
+      description_ar = "حالة حشو وتجميلي"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Post & Core & Zirconia crown"
-    category_ar = "Post & Core & تاج زركونيا"
+    category = "endo"
+    category_ar = "علاج الجذور"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1dqp1aj6dAvXg1GcZMYn72CS4F3KJ5Jxz"
-      alt = "Post & Core & Zirconia crown"
-      description = "Post & Core & Zirconia crown"
-      alt_ar = "Post & Core & تاج زركونيا"
-      description_ar = "Post & Core & تاج زركونيا"
+      photo = "https://github.com/user-attachments/assets/0011f7fd-e972-45f6-9baa-992c6872a555"
+      alt = "endo case"
+      description = "endo case"
+      alt_ar = "حالة علاج جذور"
+      description_ar = "حالة علاج جذور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6d6a40ce-1a49-45a7-8252-5ad0ab259c76"
+      alt = "endo case"
+      description = "endo case"
+      alt_ar = "حالة علاج جذور"
+      description_ar = "حالة علاج جذور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/0ada1c80-e209-4f75-ab8a-48521d3b7631"
+      alt = "endo case"
+      description = "endo case"
+      alt_ar = "حالة علاج جذور"
+      description_ar = "حالة علاج جذور"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Zirconia bridge"
-    category_ar = "كوبرى زركونيا"
+    category = "prosthesis zirconia"
+    category_ar = "تركيبات زركونيا"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1EPhEJkvL2XkddVim5_JgAjpNnuTPEFRd"
-      alt = "Zirconia bridge"
-      description = "Zirconia bridge"
-      alt_ar = "كوبرى زركونيا"
-      description_ar = "كوبرى زركونيا"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Post & Core & Zirconia crown"
-    category_ar = "Post & Core & تاج زركونيا"
+      photo = "https://github.com/user-attachments/assets/02dfd515-2307-438c-97c9-64ac7b6ffb7b"
+      alt = "prosthesis zirconia case"
+      description = "prosthesis zirconia case"
+      alt_ar = "حالة تركيبات زركونيا"
+      description_ar = "حالة تركيبات زركونيا"
     
     [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1FiS-UGdSfXFuzvlN0eytJ7uDPBE0JJa9"
-      alt = "Post & Core & Zirconia crown"
-      description = "Post & Core & Zirconia crown"
-      alt_ar = "Post & Core & تاج زركونيا"
-      description_ar = "Post & Core & تاج زركونيا"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Zirconia bridge"
-    category_ar = "كوبرى زركونيا"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1GCzXuw-ZMd-eng6uMtmm0Dk9uNRZTRDV"
-      alt = "Zirconia bridge"
-      description = "Zirconia bridge"
-      alt_ar = "كوبرى زركونيا"
-      description_ar = "كوبرى زركونيا"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Post & Core & Zirconia crown"
-    category_ar = "Post & Core & تاج زركونيا"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1uJP5XoA6hpCqCi5zI__0pFbmsdRHbNYV"
-      alt = "Post & Core & Zirconia crown"
-      description = "Post & Core & Zirconia crown"
-      alt_ar = "Post & Core & تاج زركونيا"
-      description_ar = "Post & Core & تاج زركونيا"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Zirconia bridge"
-    category_ar = "كوبرى زركونيا"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=144lhmOJA6-g4RuyvzSYLkS3le_ET0_IO"
-      alt = "Zirconia bridge"
-      description = "Zirconia bridge"
-      alt_ar = "كوبرى زركونيا"
-      description_ar = "كوبرى زركونيا"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Zirconia bridge"
-    category_ar = "كوبرى زركونيا"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://drive.google.com/open?id=1krvloUK6ZCet_RwV33XPH8oDvxIfcY4O"
-      alt = "Zirconia bridge"
-      description = "Zirconia bridge"
-      alt_ar = "كوبرى زركونيا"
-      description_ar = "كوبرى زركونيا"
+      photo = "https://github.com/user-attachments/assets/979cb44c-26de-4374-bb96-52efbc862300"
+      alt = "prosthesis zirconia case"
+      description = "prosthesis zirconia case"
+      alt_ar = "حالة تركيبات زركونيا"
+      description_ar = "حالة تركيبات زركونيا"
       
   # Contact Section
   [params.contact]
