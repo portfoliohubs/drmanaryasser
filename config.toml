@@ -196,14 +196,14 @@ defaultContentLanguage = "en"
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/0011f7fd-e972-45f6-9baa-992c6872a555"
       alt = "endo case"
-      description = "endo case"
+      description = "Access cavity"
       alt_ar = "حالة علاج جذور"
       description_ar = "حالة علاج جذور"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/6d6a40ce-1a49-45a7-8252-5ad0ab259c76"
       alt = "endo case"
-      description = "endo case"
+      description = "full case from A-Z"
       alt_ar = "حالة علاج جذور"
       description_ar = "حالة علاج جذور"
     
