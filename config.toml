@@ -165,28 +165,28 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "operative and cosmetic"
-    category_ar = "جراحية وتجميلية"
+    category_ar = "حشو عادى وتجميلي"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/b7cdcbd7-1886-40f4-8ba3-b6fa4e029d67"
       alt = "operative and cosmetic case"
-      description = "operative and cosmetic case"
+      description = "cosmetic case"
       alt_ar = "حالة حشو وتجميلي"
-      description_ar = "حالة حشو وتجميلي"
+      description_ar = "حشو تجميلي"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/14508f02-3056-40ba-8254-abd5d8beca33"
       alt = "operative and cosmetic case"
-      description = "operative and cosmetic case"
+      description = "cosmetic case"
       alt_ar = "حالة حشو وتجميلي"
-      description_ar = "حالة حشو وتجميلي"
+      description_ar = "حشو تجميلي"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e6a26f62-8e4a-4b5d-960a-013586452760"
       alt = "operative and cosmetic case"
-      description = "operative and cosmetic case"
+      description = "operative case"
       alt_ar = "حالة حشو وتجميلي"
-      description_ar = "حالة حشو وتجميلي"
+      description_ar = "حالة حشو ابيض ليزر"
 
   [[params.clinical_cases]]
     enabled = true
@@ -221,10 +221,10 @@ defaultContentLanguage = "en"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/02dfd515-2307-438c-97c9-64ac7b6ffb7b"
-      alt = "prosthesis zirconia case"
-      description = "prosthesis zirconia case"
-      alt_ar = "حالة تركيبات زركونيا"
-      description_ar = "حالة تركيبات زركونيا"
+      alt = "prosthesis post and core and zirconia crown case"
+      description = "Post & Core & Zirconia crown "
+      alt_ar = "حالة تركيبات زركونيا دعامة وطربوش زيركونيا"
+      description_ar = "دعامة وطربوش زيركونيا"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/979cb44c-26de-4374-bb96-52efbc862300"
@@ -246,8 +246,8 @@ defaultContentLanguage = "en"
     [params.contact.location]
       enabled = true
       address = "اكتوبر / الحي الثاني"
-      latitude = "30.0444"
-      longitude = "31.2357"
+      latitude = "29.96801717599153"
+      longitude = "30.948262017529885"
 
 # Arabic Translations
 [params.ar]
