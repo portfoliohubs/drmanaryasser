@@ -113,7 +113,7 @@ defaultContentLanguage = "en"
     ]
     
     digital = [
-      "Dental photography",
+      "Certificated and qualified in dental photography",
       "Exocad",
       "DSD"
     ]
@@ -274,7 +274,7 @@ defaultContentLanguage = "en"
     ]
     
     digital = [
-      "Certificated and qualified in dental photography",
+      "dental photography",
       "Exocad",
       "DSD"
     ]
