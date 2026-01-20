@@ -1,16 +1,16 @@
-baseURL = "https://portfoliohubs.github.io/MICKY/"
+baseURL = "https://portfoliohubs.github.io/drmanaryasser/"
 languageCode = "en-us"
-title = "Dr. Michael Nabil"
+title = "Dr. Manar Yasser"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
-    name = "Dr. Michael Nabil"
+    name = "Dr. Manar Yasser"
     tagline = "GP Dentist"
     graduation = "Graduated 2024 - Misr University for Science and Technology"
     profile_image = "https://drive.google.com/open?id=1e-T0P-n3fktE6EgdHjTm6GFlJwzCr5XX"
-    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    profile_image_alt = "Profile photo of Dr. Manar Yasser"
     
     [params.hero.current_position]
       role = "GP Dentist"
@@ -18,9 +18,9 @@ defaultContentLanguage = "en"
 
   [params.seo]
     description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Michael Nabil"
-    doctor_name_ar = "د. مايكل نبيل"
-    site_name = "Dr. Michael Nabil"
+    doctor_name_en = "Dr. Manar Yasser"
+    doctor_name_ar = "د. منار ياسر"
+    site_name = "Dr. Manar Yasser"
     og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
     favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
     twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
       "dental clinic",
       "cosmetic dentistry",
       "restorative dentistry",
-      "Dr. Michael Nabil",
+      "Dr. Manar Yasser",
       "zagazig",
       "DENTIST IN ZAGAZIG",
       "DENTAL CLINIC IN ZAGAZIG",
@@ -40,13 +40,13 @@ defaultContentLanguage = "en"
       "عيادة أسنان",
       "تجميل الأسنان",
       "ترميم الأسنان",
-      "د. مايكل نبيل",
+      "د. منار ياسر",
       "طبيب بالزقازيق",
       "عيادة بالزقازيق",
-      "دكتور مايكل نبيل",
-      "عيادة مايكل نبيل",
+      "دكتور منار ياسر",
+      "عيادة منار ياسر",
       "عيادة اسنان الشرقية",
-      "مايكل نبيل اسنان"
+      "منار ياسر اسنان"
     ]
 
   [params.integrations]
@@ -277,10 +277,10 @@ defaultContentLanguage = "en"
 # Arabic Translations
 [params.ar]
   [params.ar.hero]
-    name = "د. مايكل نبيل"
+    name = "د. منار ياسر"
     tagline = "طبيب اسنان عام"
     graduation = "تخرج 2024 - جامعه مصر للعلوم و التكنولوجيا"
-    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    profile_image_alt = "صورة الملف الشخصي للدكتور منار ياسر"
     
     [params.ar.hero.current_position]
       role = "طبيب اسنان عام"
