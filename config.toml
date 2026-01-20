@@ -1,0 +1,386 @@
+baseURL = "https://portfoliohubs.github.io/MICKY/"
+languageCode = "en-us"
+title = "Dr. Michael Nabil"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Michael Nabil"
+    tagline = "GP Dentist"
+    graduation = "Graduated 2024 - Misr University for Science and Technology"
+    profile_image = "https://drive.google.com/open?id=1e-T0P-n3fktE6EgdHjTm6GFlJwzCr5XX"
+    profile_image_alt = "Profile photo of Dr. Michael Nabil"
+    
+    [params.hero.current_position]
+      role = "GP Dentist"
+      clinic = "Smile Garden Dental Clinic"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Michael Nabil"
+    doctor_name_ar = "د. مايكل نبيل"
+    site_name = "Dr. Michael Nabil"
+    og_image = "https://github.com/user-attachments/assets/91a80bc5-b0ea-415a-9f29-fca6d3dfd0ba"
+    favicon_image = "https://github.com/user-attachments/assets/89fda6bd-3a72-4d9e-bc85-13ac84414951"
+    twitter_handle = "https://github.com/user-attachments/assets/97ba84f2-8190-4ea6-b396-c6beb0bb3572"
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Michael Nabil",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. مايكل نبيل",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتور مايكل نبيل",
+      "عيادة مايكل نبيل",
+      "عيادة اسنان الشرقية",
+      "مايكل نبيل اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Cosmetics",
+      "Dental surgery",
+      "Endodontics",
+      "Pedodontics",
+      "Composite Veneers",
+      "Prosthodontics"
+    ]
+    
+    digital = [
+      "Dental photography",
+      "Exocad",
+      "DSD"
+    ]
+    
+    soft = [
+      "Clinic management",
+      "Qualified to use DENTOLIZE",
+      "Patient management",
+      "Decrease waiting time for patient",
+      "Seeking for MBA"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Misr University for Science and Technology (MUST)"
+    graduation_year = "2024"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = "2024"
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = "2028"
+    
+    [[params.education.timeline]]
+      year = "2019"
+      event = "Start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Graduated from Faculty of Dentistry"
+    
+    [[params.education.timeline]]
+      year = "2024"
+      event = "Internship in MUST and Al Qasr university"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Start work in smile garden dental clinic"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Zirconia bridge"
+    category_ar = "كوبرى زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1-8fZasNzssxnV4f5IEiQAG5oe9udhPwr"
+      alt = "Zirconia bridge"
+      description = "Zirconia bridge"
+      alt_ar = "كوبرى زركونيا"
+      description_ar = "كوبرى زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Post & Core & Zirconia crown"
+    category_ar = "Post & Core & تاج زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1dqp1aj6dAvXg1GcZMYn72CS4F3KJ5Jxz"
+      alt = "Post & Core & Zirconia crown"
+      description = "Post & Core & Zirconia crown"
+      alt_ar = "Post & Core & تاج زركونيا"
+      description_ar = "Post & Core & تاج زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Zirconia bridge"
+    category_ar = "كوبرى زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1EPhEJkvL2XkddVim5_JgAjpNnuTPEFRd"
+      alt = "Zirconia bridge"
+      description = "Zirconia bridge"
+      alt_ar = "كوبرى زركونيا"
+      description_ar = "كوبرى زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Post & Core & Zirconia crown"
+    category_ar = "Post & Core & تاج زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1FiS-UGdSfXFuzvlN0eytJ7uDPBE0JJa9"
+      alt = "Post & Core & Zirconia crown"
+      description = "Post & Core & Zirconia crown"
+      alt_ar = "Post & Core & تاج زركونيا"
+      description_ar = "Post & Core & تاج زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Zirconia bridge"
+    category_ar = "كوبرى زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1GCzXuw-ZMd-eng6uMtmm0Dk9uNRZTRDV"
+      alt = "Zirconia bridge"
+      description = "Zirconia bridge"
+      alt_ar = "كوبرى زركونيا"
+      description_ar = "كوبرى زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Post & Core & Zirconia crown"
+    category_ar = "Post & Core & تاج زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1uJP5XoA6hpCqCi5zI__0pFbmsdRHbNYV"
+      alt = "Post & Core & Zirconia crown"
+      description = "Post & Core & Zirconia crown"
+      alt_ar = "Post & Core & تاج زركونيا"
+      description_ar = "Post & Core & تاج زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Zirconia bridge"
+    category_ar = "كوبرى زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=144lhmOJA6-g4RuyvzSYLkS3le_ET0_IO"
+      alt = "Zirconia bridge"
+      description = "Zirconia bridge"
+      alt_ar = "كوبرى زركونيا"
+      description_ar = "كوبرى زركونيا"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Zirconia bridge"
+    category_ar = "كوبرى زركونيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://drive.google.com/open?id=1krvloUK6ZCet_RwV33XPH8oDvxIfcY4O"
+      alt = "Zirconia bridge"
+      description = "Zirconia bridge"
+      alt_ar = "كوبرى زركونيا"
+      description_ar = "كوبرى زركونيا"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01022082637"
+    whatsapp = "01022082637"
+    email = "manaryasser5122001@gmail.com"
+    instagram = "https://www.instagram.com/dr.manar.yasser?igsh=N3VtNnJudDN5bGxx&utm_source=qr"
+    tiktok = "https://www.tiktok.com/@manaryasser2233?_r=1&_t=ZS-93D6eCbBS0W"
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "اكتوبر / الحي الثاني"
+      latitude = "30.0444"
+      longitude = "31.2357"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. مايكل نبيل"
+    tagline = "طبيب اسنان عام"
+    graduation = "تخرج 2024 - جامعه مصر للعلوم و التكنولوجيا"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مايكل نبيل"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب اسنان عام"
+      clinic = "عيادة سمايل جاردن لطب الاسنان"
+  
+[params.ar.skills]
+    clinical = [
+      "حشو عادي",
+      "حشو عصب",
+      "حشوات تجميليه",
+      "خلع عادي",
+      "خلع جراحي",
+      "حشوات للاطفال",
+      "تركيبات متحركه",
+      "تركيبات ثابته"
+    ]
+    
+    digital = [
+      "Certificated and qualified in dental photography",
+      "Exocad",
+      "DSD"
+    ]
+    
+    soft = [
+      "اداره العيادة",
+      "العمل على تطبيق dentolize",
+      "التعامل مع الحالات بشكل لطيف",
+      "تنظيم مده الانتظار بين الحالات",
+      "السعي ل اداره العيادات على نطاق اوسع (مراكز) ب دراسه ماجستير اداره الاعمال (MBA)"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعه مصر للعلوم و التكنولوجيا"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من كلية طب الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "التدريب في MUST و Al Qasr university"
+    
+    [[params.ar.education.timeline]]
+      event = "بدء العمل في عيادة سمايل جاردن لطب الاسنان"  
+
+  [params.ar.contact.location]
+    address = "اكتوبر / الحي الثاني"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
