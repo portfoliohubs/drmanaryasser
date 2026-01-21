@@ -21,9 +21,9 @@ defaultContentLanguage = "en"
     doctor_name_en = "Dr. Manar Yasser"
     doctor_name_ar = "د. منار ياسر"
     site_name = "Dr. Manar Yasser"
-    og_image = ""
-    favicon_image = ""
-    twitter_handle = ""
+    og_image = "https://github.com/user-attachments/assets/11a4d5f9-0282-414d-9b29-03d8e4cb13fe"
+    favicon_image = "https://github.com/user-attachments/assets/11a4d5f9-0282-414d-9b29-03d8e4cb13fe"
+    twitter_handle = "https://github.com/user-attachments/assets/11a4d5f9-0282-414d-9b29-03d8e4cb13fe"
     keywords = [
       "dentist",
       "dental clinic",
@@ -33,6 +33,8 @@ defaultContentLanguage = "en"
       "october",
       "DENTIST IN october",
       "DENTAL CLINIC IN october",
+      "Dr manar yasser", 
+      "Dr manar yasser dentist"
       "DENTAL CLINIC"
     ]
     keywords_ar = [
@@ -44,6 +46,7 @@ defaultContentLanguage = "en"
       "طبيب باكتوبر",
       "عيادة باكتوبر",
       "دكتور منار ياسر اسنان اكتوبر",
+      " منار ياسر اسنان", 
       "دكتور منار ياسر",
       "عيادة منار ياسر",
       "عيادة اسنان اكتوبر",
